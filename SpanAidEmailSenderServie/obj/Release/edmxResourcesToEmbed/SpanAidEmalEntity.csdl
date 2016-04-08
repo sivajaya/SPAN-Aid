@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Span_AidModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Span_AidEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HealingRadius_Ticket" EntityType="Span_AidModel.HealingRadius_Ticket" />
+    <EntitySet Name="TruckLogics_Ticket" EntityType="Span_AidModel.TruckLogics_Ticket" />
+  </EntityContainer>
+  <EntityType Name="HealingRadius_Ticket">
+    <Key>
+      <PropertyRef Name="HR_Ticket_Id" />
+    </Key>
+    <Property Name="HR_Ticket_Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HR_Ticket_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="HR_User_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="HR_Email_Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="HR_Appoinment_Number" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="HR_Ticket_Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="HR_Ticket_Status" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="HR_Is_PushNotification" Type="Boolean" Nullable="false" />
+    <Property Name="HR_Is_Email_Send" Type="Boolean" Nullable="false" />
+    <Property Name="HR_Is_Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="HR_Ticket_Create_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="HR_Ticket_Update_Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="TruckLogics_Ticket">
+    <Key>
+      <PropertyRef Name="TL_Ticket_Id" />
+    </Key>
+    <Property Name="TL_Ticket_Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TL_Ticket_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TL_User_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tl_Email_Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TL_Module_Name" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TL_Ticket_Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TL_Ticket_Status" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TL_Is_PushNotification" Type="Boolean" Nullable="false" />
+    <Property Name="Tl_Is_Email_Send" Type="Boolean" Nullable="false" />
+    <Property Name="TL_Is_Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="TL_Ticket_Create_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TL_Ticket_Update_Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

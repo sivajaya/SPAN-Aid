@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Span_Aid
+namespace SpanAidEmailSenderServie
 {
     using System;
     using System.Collections.Generic;

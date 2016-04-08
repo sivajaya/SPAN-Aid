@@ -1,0 +1,10 @@
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe.config
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.pdb
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\EntityFramework.dll
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\EntityFramework.xml
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\obj\Release\SpanAidEmailSenderServie.csprojResolveAssemblyReference.cache
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\obj\Release\SpanAidEmailSenderServie.exe
+C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\obj\Release\SpanAidEmailSenderServie.pdb

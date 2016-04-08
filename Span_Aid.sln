@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Span_Aid", "Span_Aid\Span_Aid.csproj", "{8F2C0FC4-BB39-487A-9EDB-92D5165E4F91}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Email Service", "Email Service", "{58593363-77CB-47B7-ABD6-314791806F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanAidEmailSenderServie", "SpanAidEmailSenderServie\SpanAidEmailSenderServie.csproj", "{AE1E8C49-A836-476F-AD28-F6B6BE92D6BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{8F2C0FC4-BB39-487A-9EDB-92D5165E4F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F2C0FC4-BB39-487A-9EDB-92D5165E4F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F2C0FC4-BB39-487A-9EDB-92D5165E4F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1E8C49-A836-476F-AD28-F6B6BE92D6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1E8C49-A836-476F-AD28-F6B6BE92D6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1E8C49-A836-476F-AD28-F6B6BE92D6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1E8C49-A836-476F-AD28-F6B6BE92D6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE1E8C49-A836-476F-AD28-F6B6BE92D6BE} = {58593363-77CB-47B7-ABD6-314791806F9E}
 	EndGlobalSection
 EndGlobal

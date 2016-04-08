@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\STS\Source\Repos\SPAN-Aid\Span_Aid\Span_AidEntities.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\SpanAidEmalEntity.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

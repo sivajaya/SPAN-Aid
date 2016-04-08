@@ -193,7 +193,7 @@ namespace Span_Aid.Controllers
          [HttpPost]
          public bool DeleteHRTicketDetailsByTicketId(Span_Aid_HR HRTicketDetails)
          {
-             bool isDeleted = false;
+             bool isUpdated = false;
              if (HRTicketDetails != null && HRTicketDetails.HRTicketId > 0)
              {
                  using (Span_AidEntities entities = new Span_AidEntities())
@@ -204,11 +204,59 @@ namespace Span_Aid.Controllers
                          dbHRTicketDetails.HR_Is_Deleted = true;
                          dbHRTicketDetails.HR_Ticket_Update_Date = DateTime.Now;
                          entities.SaveChanges();
+                         isUpdated = true;
+                     }
+                 }
+             }
+             return isUpdated;
+         }
+
+         [HttpPost]
+         public bool DeleteHRTicketDetailsByTicketId(Span_Aid_HR HRTicketDetails)
+         {
+             bool isDeleted = false;
+             if (HRTicketDetails != null && HRTicketDetails.HRTicketId > 0 && !string.IsNullOrWhiteSpace(HRTicketDetails.HRTicketStatus))
+             {
+                 using (Span_AidEntities entities = new Span_AidEntities())
+                 {
+                     HealingRadius_Ticket dbHRTicketDetails = entities.HealingRadius_Ticket.SingleOrDefault(a => a.HR_Ticket_Id == HRTicketDetails.HRTicketId && !a.HR_Is_Deleted);
+                     if (dbHRTicketDetails != null)
+                     {
+                         dbHRTicketDetails.HR_Ticket_Status = HRTicketDetails.HRTicketStatus;
+                         dbHRTicketDetails.HR_Is_Email_Send = false;
+                         dbHRTicketDetails.HR_Is_PushNotification = false;
+                         dbHRTicketDetails.HR_Ticket_Update_Date = DateTime.Now;
+                         entities.SaveChanges();
                          isDeleted = true;
                      }
                  }
              }
              return isDeleted;
          }
+
+         [HttpPost]
+         public bool UpdateTLTicketStausByTicketId(Span_Aid_TL TLTicketDetails)
+         {
+             bool isUpdated = false;
+             if (TLTicketDetails != null && TLTicketDetails.TLTicketId > 0 && !string.IsNullOrWhiteSpace(TLTicketDetails.TLTicketStatus))
+             {
+                 using (Span_AidEntities entities = new Span_AidEntities())
+                 {
+                     TruckLogics_Ticket dbTLTicketDetails = entities.TruckLogics_Ticket.SingleOrDefault(a => a.TL_Ticket_Id == TLTicketDetails.TLTicketId && !a.TL_Is_Deleted);
+                     if (dbTLTicketDetails != null)
+                     {
+                         dbTLTicketDetails.TL_Ticket_Status = TLTicketDetails.TLTicketStatus;
+                         dbTLTicketDetails.Tl_Is_Email_Send = false;
+                         dbTLTicketDetails.TL_Is_PushNotification = false;
+                         dbTLTicketDetails.TL_Ticket_Update_Date = DateTime.Now;
+                         entities.SaveChanges();
+                         isUpdated = true;
+                     }
+                 }
+             }
+             return isUpdated;
+         }
+
+       
     }
 }

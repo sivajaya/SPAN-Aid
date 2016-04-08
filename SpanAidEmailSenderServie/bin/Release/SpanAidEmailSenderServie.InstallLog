@@ -1,0 +1,56 @@
+﻿Installing assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+   logtoconsole = 
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe assembly.
+Committing assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+   logtoconsole = 
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe assembly.
+Installing assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+   logtoconsole = 
+Committing assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+An exception occurred during the uninstallation of the SpanAidEmailSenderServie.SpanAidProjectInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+   logtoconsole = 
+Installing service SpanAidEmailSenderService...
+Service SpanAidEmailSenderService has been successfully installed.
+Creating EventLog source SpanAidEmailSenderService in log Application...
+Committing assembly 'C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.InstallLog
+   assemblypath = C:\Users\STS\Source\Repos\SPAN-Aid\SpanAidEmailSenderServie\bin\Release\SpanAidEmailSenderServie.exe
+   logtoconsole = 
