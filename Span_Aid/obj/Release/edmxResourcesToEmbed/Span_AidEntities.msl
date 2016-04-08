@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Span_AidModelStoreContainer" CdmEntityContainer="Span_AidEntities">
+    <EntitySetMapping Name="HealingRadius_Ticket">
+      <EntityTypeMapping TypeName="Span_AidModel.HealingRadius_Ticket">
+        <MappingFragment StoreEntitySet="HealingRadius_Ticket">
+          <ScalarProperty Name="HR_Ticket_Update_Date" ColumnName="HR_Ticket_Update_Date" />
+          <ScalarProperty Name="HR_Ticket_Create_Date" ColumnName="HR_Ticket_Create_Date" />
+          <ScalarProperty Name="HR_Is_Deleted" ColumnName="HR_Is_Deleted" />
+          <ScalarProperty Name="HR_Ticket_Status" ColumnName="HR_Ticket_Status" />
+          <ScalarProperty Name="HR_Ticket_Description" ColumnName="HR_Ticket_Description" />
+          <ScalarProperty Name="HR_Appoinment_Number" ColumnName="HR_Appoinment_Number" />
+          <ScalarProperty Name="HR_Email_Address" ColumnName="HR_Email_Address" />
+          <ScalarProperty Name="HR_User_Name" ColumnName="HR_User_Name" />
+          <ScalarProperty Name="HR_Ticket_Number" ColumnName="HR_Ticket_Number" />
+          <ScalarProperty Name="HR_Ticket_Id" ColumnName="HR_Ticket_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TruckLogics_Ticket">
+      <EntityTypeMapping TypeName="Span_AidModel.TruckLogics_Ticket">
+        <MappingFragment StoreEntitySet="TruckLogics_Ticket">
+          <ScalarProperty Name="TL_Ticket_Update_Date" ColumnName="TL_Ticket_Update_Date" />
+          <ScalarProperty Name="TL_Ticket_Create_Date" ColumnName="TL_Ticket_Create_Date" />
+          <ScalarProperty Name="TL_Is_Deleted" ColumnName="TL_Is_Deleted" />
+          <ScalarProperty Name="TL_Ticket_Status" ColumnName="TL_Ticket_Status" />
+          <ScalarProperty Name="TL_Ticket_Description" ColumnName="TL_Ticket_Description" />
+          <ScalarProperty Name="TL_Module_Name" ColumnName="TL_Module_Name" />
+          <ScalarProperty Name="Tl_Email_Address" ColumnName="Tl_Email_Address" />
+          <ScalarProperty Name="TL_User_Name" ColumnName="TL_User_Name" />
+          <ScalarProperty Name="TL_Ticket_Number" ColumnName="TL_Ticket_Number" />
+          <ScalarProperty Name="TL_Ticket_Id" ColumnName="TL_Ticket_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
